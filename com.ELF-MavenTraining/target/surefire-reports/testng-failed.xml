@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="demoWebShop.LoginTest">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- demoWebShop.LoginTest -->
+      <class name="demoWebShop.Register1Test">
+        <methods>
+          <include name="RegisterTest"/>
+          <include name="SetUpBrowser"/>
+          <include name="browserTearDown"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- demoWebShop.Register1Test -->
+      <class name="demoWebShop.ShoppingCartTest">
+        <methods>
+          <include name="ShoppingCart"/>
+        </methods>
+      </class> <!-- demoWebShop.ShoppingCartTest -->
+      <class name="demoWebShop.Login1Test">
+        <methods>
+          <include name="SetUpBrowser"/>
+          <include name="browserTearDown"/>
+          <include name="testcase1"/>
+          <include name="Login1"/>
+        </methods>
+      </class> <!-- demoWebShop.Login1Test -->
+      <class name="demoWebShop.WishlistTest">
+        <methods>
+          <include name="Wishlist"/>
+        </methods>
+      </class> <!-- demoWebShop.WishlistTest -->
+      <class name="demoWebShop.RegisterTest">
+        <methods>
+          <include name="Register"/>
+        </methods>
+      </class> <!-- demoWebShop.RegisterTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

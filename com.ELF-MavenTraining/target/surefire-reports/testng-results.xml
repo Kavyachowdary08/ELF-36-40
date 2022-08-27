@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="243177" started-at="2022-08-24T15:53:32 IST" finished-at="2022-08-24T15:57:35 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="243177" started-at="2022-08-24T15:53:32 IST" finished-at="2022-08-24T15:57:35 IST">
+      <class name="demoWebShop.RegisterTest">
+        <test-method status="PASS" signature="Register()[pri:0, instance:demoWebShop.RegisterTest@eec5a4a]" name="Register" duration-ms="16931" started-at="2022-08-24T15:55:44 IST" finished-at="2022-08-24T15:56:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+      </class> <!-- demoWebShop.RegisterTest -->
+      <class name="demoWebShop.Register1Test">
+        <test-method status="PASS" signature="SetUpBrowser(java.lang.String)[pri:0, instance:demoWebShop.Register1Test@210366b4]" name="SetUpBrowser" is-config="true" duration-ms="17758" started-at="2022-08-24T15:55:13 IST" finished-at="2022-08-24T15:55:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBrowser -->
+        <test-method status="PASS" signature="RegisterTest()[pri:0, instance:demoWebShop.Register1Test@210366b4]" name="RegisterTest" duration-ms="2350" started-at="2022-08-24T15:55:31 IST" finished-at="2022-08-24T15:55:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:demoWebShop.Register1Test@210366b4]" name="browserTearDown" is-config="true" duration-ms="10636" started-at="2022-08-24T15:55:34 IST" finished-at="2022-08-24T15:55:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- demoWebShop.Register1Test -->
+      <class name="demoWebShop.WishlistTest">
+        <test-method status="PASS" signature="Wishlist()[pri:0, instance:demoWebShop.WishlistTest@6ddf90b0]" name="Wishlist" duration-ms="46462" started-at="2022-08-24T15:56:49 IST" finished-at="2022-08-24T15:57:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wishlist -->
+      </class> <!-- demoWebShop.WishlistTest -->
+      <class name="demoWebShop.LoginTest">
+        <test-method status="PASS" signature="Login()[pri:0, instance:demoWebShop.LoginTest@335eadca]" name="Login" duration-ms="15784" started-at="2022-08-24T15:54:58 IST" finished-at="2022-08-24T15:55:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- demoWebShop.LoginTest -->
+      <class name="demoWebShop.Login1Test">
+        <test-method status="PASS" signature="SetUpBrowser(java.lang.String)[pri:0, instance:demoWebShop.Login1Test@67784306]" name="SetUpBrowser" is-config="true" duration-ms="72087" started-at="2022-08-24T15:53:32 IST" finished-at="2022-08-24T15:54:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBrowser -->
+        <test-method status="PASS" signature="Login1()[pri:0, instance:demoWebShop.Login1Test@67784306]" name="Login1" duration-ms="8735" started-at="2022-08-24T15:54:44 IST" finished-at="2022-08-24T15:54:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login1 -->
+        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:demoWebShop.Login1Test@67784306]" name="browserTearDown" is-config="true" duration-ms="4385" started-at="2022-08-24T15:54:53 IST" finished-at="2022-08-24T15:54:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- demoWebShop.Login1Test -->
+      <class name="demoWebShop.ShoppingCartTest">
+        <test-method status="PASS" signature="ShoppingCart()[pri:0, instance:demoWebShop.ShoppingCartTest@2b2948e2]" name="ShoppingCart" duration-ms="47941" started-at="2022-08-24T15:56:01 IST" finished-at="2022-08-24T15:56:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCart -->
+      </class> <!-- demoWebShop.ShoppingCartTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
